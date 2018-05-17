@@ -1,0 +1,38 @@
+#wrapper {
+    width:98%;
+    margin: 0 auto;
+}
+#nav_bar {
+    
+    height: 5em;
+    width: 50%;
+    margin: 0 auto;
+    min-width: 933px;
+    max-width: 933px;
+}
+#nav_bar_list {
+    height: auto;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    border: 2px solid gray;
+    background-color: #8891a0;
+   
+}
+.nav_bar_list_item {
+     display: inline-block;
+    font-family: Arial;
+    color: white;
+    font-size: 22px;
+    border-right: 2px solid gray;
+    padding: 10px;
+    width: 13.95%;
+    text-align: center;
+    background-color: #8891a0
+}
+.nav_bar_list_item:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

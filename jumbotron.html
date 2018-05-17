@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="en">
+        <title>Jumbotron</title>
+        <link rel="stylesheet" type="text/css" href="jumbotron_css.css" />
+        <script type="text/javascript">
+            
+            function modal() {
+			// Get the modal
+			  var modal = document.getElementById('myModal');
+
+			// Get the button that opens the modal
+			  var btn = document.getElementById("myBtn");
+
+			// Get the <span> element that closes the modal
+			  var span = document.getElementsByClassName("close")[0];
+
+            
+              modal.style.display = "block";
+                
+            // When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+            }
+            }
+        </script>
+    </head>
+    <section id="wrapper">
+        <body>
+            <div id="myModal" class="modal" > <!-- Div that defines the jumbotron container -->
+		  <div class="modal-content"> <!-- Div that the defines the container for the jumbotron content -->
+		    <div class="modal-header"> <!-- Container for the jumbotron header -->
+		      <span class="close">×</span> <!-- Span tags used as the call function for the jumbotron to close -->
+		      <h2>Call to action Jumbotron</h2> <!-- Jumbotron Heading -->
+		    </div>
+		    <div class="modal-body"> <!-- Div for the main content of the jumbotron -->
+		      
+					<div style="text-align: center">
+					<p>You can click on the "X" or anywhere outside to close the jumbotron</p> <!-- Main content of the jumbotron -->
+					</div>
+
+		    </div>
+		    <div class="modal-footer"> <!-- Container for a jumbotron footer -->
+		      
+		    </div>
+		  </div>
+
+		</div>
+            <section id="container">
+                <button id="calljumbo" onclick="modal()">Call Jumbotron</button> <!-- Button used for calling the jumbotron via onclick function -->
+                
+            </section>
+        </body>
+    </section>
+</html>

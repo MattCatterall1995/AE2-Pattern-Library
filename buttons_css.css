@@ -1,0 +1,184 @@
+#wrapper {
+    
+    width: 98%;
+    margin: 0 auto;
+}
+#button_container {
+    
+    width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: Arial;
+    font-size: 32px;
+    width: 20%;
+    border-bottom: 2px solid gray;
+}
+.page_headings {
+    
+    font-family: Arial;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#submit_buttons {
+    padding-bottom: 40px;
+}
+#search_buttons {
+    padding-bottom: 40px;
+}
+#hover_buttons {
+    padding-bottom: 40px;
+}
+#submit_red {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+    
+}
+#submit_green {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+    
+}
+#submit_blue {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    
+}
+#search_red {
+    background-color: red;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+    
+}
+#search_green {
+    background-color: green;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+    
+}
+#search_blue {
+    background-color: blue;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    
+}
+#hover_red {
+    background-color: white; 
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+    
+}
+#hover_green {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+    
+}
+#hover_blue {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    
+}
+#hover_red:hover {
+    
+    background-color: red;
+    color: white;
+}
+#hover_green:hover {
+    
+    background-color: green;
+    color: white;
+}
+#hover_blue:hover {
+    
+    background-color: blue;
+    color: white;
+}
+#search_icon {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#settings_icon {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#like_icon {
+    background-color: white;
+    font-size: 22px;
+    padding: 15px;
+    width: 10em;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.button_icons {
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    float: right;
+    
+
+}
