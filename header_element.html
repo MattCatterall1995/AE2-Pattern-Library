@@ -7,6 +7,7 @@
     </head>
     <section id="wrapper"> <!-- A section wrapper that keeps all elements contained together -->
         <body>
+            <h1>Header Element</h1>
             <section id="header_container">
                 
                 <nav id="nav_bar"> <!-- The semantic HTML tag "nav" specifies the container for the nav bar -->
@@ -20,6 +21,79 @@
                     </ul>
                 </nav>
             </section> <!-- Remaining tags used to close previously opened tags -->
+            <h2 class="sub_headings">HTML</h2>
+            <xmp>
+               <section id="header_container">
+                
+                <nav id="nav_bar"> <!-- The semantic HTML tag "nav" specifies the container for the nav bar -->
+                    <ul id="nav_bar_list"> <!-- The unordered List tag is used to contain the list items -->
+                        <li class="nav_bar_list_item">Link 1</li> <!-- Nav bar list item -->
+                        <li class="nav_bar_list_item">Link 2</li> <!-- Nav bar list item -->
+                        <li class="nav_bar_list_item">Link 3</li> <!-- Nav bar list item -->
+                        <li class="nav_bar_list_item">Link 4</li> <!-- Nav bar list item -->
+                        <li class="nav_bar_list_item">Link 5</li> <!-- Nav bar list item -->
+                        <li class="nav_bar_list_item">Link 6</li> <!-- Nav bar list item -->
+                    </ul>
+                </nav>
+            </section> <!-- Remaining tags used to close previously opened tags --> 
+            </xmp>
+            <h3 class="sub_headings">CSS</h3>
+            <xmp>
+#header_container {
+background-image: url(header_background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 70%;
+margin: 0 auto;
+height: 20em;
+max-height: 20em;
+overflow: hidden;
+min-width: 1308px;
+max-width: 1308px;
+z-index: 0;
+}
+#header_background {
+    
+    
+}
+#nav_bar {
+    top: 84%;
+    position: relative;
+    height: 5em;
+    width: 100%;
+   
+    min-width: 1308px;
+    
+    z-index: 2;
+}
+#nav_bar_list {
+    height: auto;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    border: 2px solid gray;
+    background-color: #8891a0;
+   
+}
+.nav_bar_list_item {
+     display: inline-block;
+    font-family: Arial;
+    color: white;
+    font-size: 22px;
+    border-right: 2px solid gray;
+    padding: 10px;
+    width: calc(100%/6.8);
+    text-align: center;
+    background-color: #8891a0
+}
+.nav_bar_list_item:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+            </xmp>
         </body>
     </section>
 </html>

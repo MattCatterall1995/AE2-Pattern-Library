@@ -16,6 +16,20 @@ h1 {
     border-bottom: 2px solid gray;
     
 }
+h2 {
+    padding-top: 1000px;
+}
+xmp {
+    
+    font-family: Arial;
+    width: 60%;
+    margin: 0 auto;
+}
+.sub_headings {
+    font-family: Arial;
+    width: 60%;
+    margin: 0 auto;
+}
 #image_grid_container {
     
     margin: 0 auto;

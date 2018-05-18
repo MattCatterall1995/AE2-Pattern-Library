@@ -17,9 +17,26 @@
     width: 15em;
     background-color: gray;
     color: white;
+    margin-bottom: 25px;
 }
 p {
     font-family: Arial;
+}
+h1 {
+    font-family: Arial;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sub_headings {
+    font-family: Arial;
+    width: 70%;
+    margin: 0 auto;
+}
+xmp {
+    font-family: Arial;
+    width: 70%;
+    margin: 0 auto;
 }
 /* The Modal (background) */
 		.modal {

@@ -8,6 +8,22 @@
     <section id="wrapper"> <!-- Wrapper to contain all the page elements -->
         <body>
                 <section id="container"> <!-- Container for the main content -->
+                <h1>Footer</h1>
+                    <footer> <!-- Semantic HTML for a footer element -->
+                    <section id="footer_left"> <!-- Left section of the footer -->
+                        <p>&copy; Pattern Library 2018</p> <!-- Section text -->
+                    </section>
+                    <section id="footer_right"> <!-- Right section of the footer -->
+                        <img class="footer_icons" alt="social_media_icon" src="facebook_icon.png" /> <!-- Social Media Icon -->
+                        <img class="footer_icons" alt="social_media_icon" src="insta_icon.png" /> <!-- Social Media Icon -->
+                        <img class="footer_icons" alt="social_media_icon" src="twitter_icon.png" /> <!-- Social Media Icon -->
+                        <img class="footer_icons" alt="social_media_icon" src="linkedin_icon.png" /> <!-- Social Media Icon -->
+                    </section>
+                </footer>
+                
+            </section> <!-- Reamining tags for closing previously opened tags -->
+            <h2 class="sub_headings">HTML</h2>
+            <xmp>
                 <footer> <!-- Semantic HTML for a footer element -->
                     <section id="footer_left"> <!-- Left section of the footer -->
                         <p>&copy; Pattern Library 2018</p> <!-- Section text -->
@@ -19,7 +35,40 @@
                         <img class="footer_icons" alt="social_media_icon" src="linkedin_icon.png" /> <!-- Social Media Icon -->
                     </section>
                 </footer>
-            </section> <!-- Reamining tags for closing previously opened tags -->
+            </xmp>
+            <h3>CSS</h3>
+            <xmp>
+footer {
+min-width: 1345px;
+    
+margin: 0 auto;
+    
+    
+width: 70%;
+height: 5em;
+background-color: gray;
+}
+#footer_left {
+    
+    width: 40%;
+    float: left;
+}
+#footer_right {
+    padding-top: 23px;
+    padding-right: 15px;
+    width: 40%;
+    float: right;
+    
+}
+.footer_icons {
+    float: right;
+    padding-left: 15px;
+    display: inline-block   ;
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+}
+            </xmp>
         </body>
     </section>
 </html>

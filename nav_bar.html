@@ -7,6 +7,7 @@
     </head>
     <section id="wrapper"> <!-- Section acts as a wrapper to keep all the cotent contained together -->
     <body>
+        <h1>Navigation Bar</h1>
         <nav id="nav_bar"> <!-- The semantic HTML tag "nav" specifies the container for the nav bar -->
             <ul id="nav_bar_list"> <!-- The unordered List tag is used to contain the list items -->
                 <li class="nav_bar_list_item">Link 1</li>
@@ -16,7 +17,80 @@
                 <li class="nav_bar_list_item">Link 5</li>
                 <li class="nav_bar_list_item">Link 6</li>
             </ul>
-        </nav>    
+        </nav>
+        <h2 class="sub_headings">HTML</h2>
+        <xmp><nav id="nav_bar"> <!-- The semantic HTML tag "nav" specifies the container for the nav bar -->
+            <ul id="nav_bar_list"> <!-- The unordered List tag is used to contain the list items -->
+                <li class="nav_bar_list_item">Link 1</li>
+                <li class="nav_bar_list_item">Link 2</li>
+                <li class="nav_bar_list_item">Link 3</li>
+                <li class="nav_bar_list_item">Link 4</li>
+                <li class="nav_bar_list_item">Link 5</li>
+                <li class="nav_bar_list_item">Link 6</li>
+            </ul>
+            </nav>
+        </xmp>
+        <h3 class="sub_headings">CSS</h3>
+        <xmp>
+#wrapper {
+width:98%;
+margin: 0 auto;
+}
+#nav_bar {
+    
+    height: 5em;
+    width: 50%;
+    margin: 0 auto;
+    min-width: 933px;
+    max-width: 933px;
+}
+#nav_bar_list {
+    height: auto;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    border: 2px solid gray;
+    background-color: #8891a0;
+   
+}
+.nav_bar_list_item {
+     display: inline-block;
+    font-family: Arial;
+    color: white;
+    font-size: 22px;
+    border-right: 2px solid gray;
+    padding: 10px;
+    width: 13.95%;
+    text-align: center;
+    background-color: #8891a0
+}
+.nav_bar_list_item:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+h1 {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial;
+    margin-bottom: 50px;
+}
+.sub_headings {
+    font-family: Arial;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+xmp {
+    font-family: Arial;
+    font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
+}
+        </xmp>
     </body> <!-- The remaining tags are used for the closing previously opened tags -->
     </section>
 </html>

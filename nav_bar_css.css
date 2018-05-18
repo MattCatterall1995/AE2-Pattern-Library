@@ -36,3 +36,23 @@
     color: black;
     cursor: pointer;
 }
+h1 {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial;
+    margin-bottom: 50px;
+}
+.sub_headings {
+    font-family: Arial;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+xmp {
+    font-family: Arial;
+    font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
+}
